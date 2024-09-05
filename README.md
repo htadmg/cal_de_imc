@@ -39,3 +39,25 @@ Este é um projeto simples de uma **Calculadora de Índice de Massa Corporal (IM
 │   └── index.css     # Arquivo de estilo CSS
 └── scripts/
     └── calcular.js   # Arquivo JavaScript com a lógica de cálculo
+```
+
+
+## Lógica de Cálculo
+A fórmula usada para calcular o IMC é:
+```bash
+IMC = peso (kg) / (altura (m) * altura (m))
+```
+
+A classificação do IMC segue as diretrizes:
+
+| IMC                | Classificação       |
+|--------------------|---------------------|
+| Menor que 18,5     | Abaixo do peso      |
+| 18,5 a 24,9        | Peso normal         |
+| 25,0 a 29,9        | Sobrepeso           |
+| 30,0 a 34,9        | Obesidade I         |
+| 35,0 a 39,9        | Obesidade II        |
+| Maior que 40,0     | Obesidade III       |
+
+
+
