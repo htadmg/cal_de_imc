@@ -1,0 +1,109 @@
+main{
+    display:flex;
+    padding:20px;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    padding:20px;
+    border-radius: 20px;
+    border: 1px solid #dcdcdc;
+}
+section{
+    padding:10px;
+}
+h1{
+    margin:10px 0;
+}
+p{
+    font-size: 0.68rem;
+    color:#878686;
+    margin-bottom: 40px;
+}
+form{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px;
+}
+.form-group{
+    display:flex;
+    flex-direction:column;
+    gap: 5px;
+}
+
+label{
+    font-size: 0.68rem;
+    font-weight:500;
+}
+
+input{
+    border: 1px solid #dcdcdc;
+    border-radius:6px;
+    padding: 8px;
+    text-indent: 0.5rem;
+    font-size: 0.68rem;
+}
+
+button{
+    border: 1px solid  #dcdcdc;
+    border-radius:10px;
+    font-weight: bold;
+    padding: 5px;
+    background-color: transparent;
+    cursor:pointer;
+}
+button{
+    border: 1px solid  #dcdcdc;
+    border-radius:10px;
+    font-weight: 400;
+    padding: 10px;
+    background-color: transparent;
+    cursor:pointer;
+}
+button[type="button"] {
+    border: 1px solid  #dcdcdc;
+    border-radius:10px;
+    font-weight: 400;
+    padding: 5px;
+    color:white;
+    background-color: #ff2978;
+    cursor:pointer;
+}
+article{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+ article > p{
+    font-size: 0.68rem;
+     font-weight: 500;
+    color:black;
+    margin-bottom: 10px;
+ }
+ article > p#imc , p#classificacao{
+    font-size: 0.68rem;
+     text-align:end;
+     font-weight: 600;
+    color:black;
+    margin-bottom: 10px;
+ }
+
+table{
+    width: 100%;
+    border-collapse:collapse;
+}
+th{
+    border-bottom: 1px solid  #dcdcdc;
+    padding:10px;
+    text-transform:uppercase;
+    font-size: .8rem;
+    font-weight: bold;
+    color: #878686;
+    text-align: left;
+}
+
+td{
+    padding:10px;
+    font-size: .68rem;
+    border-bottom: 1px solid  #dcdcdc;
+    letter-spacing: 0.5px;
+}
