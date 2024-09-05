@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    font-family: "Ubuntu", system-ui;
+}
 main{
     display:flex;
     padding:20px;
@@ -8,6 +13,7 @@ main{
     padding:20px;
     border-radius: 20px;
     border: 1px solid #dcdcdc;
+    box-shadow: 1px 1px 20px #dcdcdc;
 }
 section{
     padding:10px;
@@ -106,4 +112,56 @@ td{
     font-size: .68rem;
     border-bottom: 1px solid  #dcdcdc;
     letter-spacing: 0.5px;
+}
+
+@media (max-width: 500px) {
+    form{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap:20px;
+    }
+    
+    td{
+            font-size: .68rem;
+    }
+    
+    th{
+        font-size: .1rem;
+    }
+    main{
+        width: 100%;
+        padding:10px;
+    }
+    .content{
+        padding:10px;
+    }
+    section{
+        padding:10px;
+    }
+    h1{
+        margin:10px 0;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+    form{
+        grid-template-columns: repeat(1, 1fr);
+        gap:10px;
+    }
+
+    label{
+        font-size: 0.8rem;
+    }
+    
+    input{
+        text-indent: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+     article > p{
+        font-size: 0.8rem;
+     }
+     article > p#imc , p#classificacao{
+        font-size: 0.8rem;
+     }
 }
