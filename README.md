@@ -59,5 +59,8 @@ A classificação do IMC segue as diretrizes:
 | 35,0 a 39,9        | Obesidade II        |
 | Maior que 40,0     | Obesidade III       |
 
+## Licença
+
+Este projeto é de domínio público e pode ser utilizado livremente.
 
 
